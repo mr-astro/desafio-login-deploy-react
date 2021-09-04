@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App text-center">
-      <Router>
+      <Router basename='desafio-login-deploy-react'>
         <div>
           <nav>
             <ul>

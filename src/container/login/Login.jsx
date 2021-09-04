@@ -1,4 +1,4 @@
-import React, {useState, useCallback} from 'react'
+import React, {useState} from 'react'
 import { useDispatch } from 'react-redux'
 import {userLogin} from '../../store/login/action'
 import { useHistory } from 'react-router-dom'
@@ -11,6 +11,7 @@ const Login = () => {
 
     const dispatch = useDispatch()
     const history = useHistory()
+    
     const handleInputChange = (event) => {
         const target = event.target
         setForm({
@@ -19,12 +20,12 @@ const Login = () => {
         })
     }
 
-    const handleSubmit = useCallback((event) => {
+    const cb = () => history.push('/users')
+
+    const handleSubmit = (event) => {
         event.preventDefault()
-        dispatch(userLogin(form))
-        history.push('/users')
-    },
-    [dispatch, form, history])
+        dispatch(userLogin(form,cb))
+    }
 
     return (
         <div className="container">
