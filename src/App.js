@@ -1,26 +1,26 @@
 import Login from './container/login/Login';
-import Users from './container/users/Users';
-import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Products from './container/products/Products';
+import {BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom'
 import './App.css';
 
 function App() {
   return (
-    <div className="App text-center">
+    <div className="App text-center container">
       <Router basename='desafio-login-deploy-react'>
         <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to='/'>Login</Link>
+          <nav className='navbar navbar-expand-lg'>
+            <ul className='nabvar-nav'>
+              <li className='nav-item'>
+                <NavLink to='/'>Login</NavLink>
               </li>
-              <li>
-                <Link to='/users'>Users</Link>
+              <li className='nav-item'>
+                <NavLink to='/products'>Products</NavLink>
               </li>
             </ul>
           </nav>
           <Switch>
             <Route exact path='/'><Login /></Route>
-            <Route path='/users'><Users /></Route>
+            <Route path='/products'><Products /></Route>
           </Switch>
         </div>
       </Router>

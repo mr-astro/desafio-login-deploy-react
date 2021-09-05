@@ -20,7 +20,7 @@ const Login = () => {
         })
     }
 
-    const cb = () => history.push('/users')
+    const cb = () => history.push('/products')
 
     const handleSubmit = (event) => {
         event.preventDefault()
