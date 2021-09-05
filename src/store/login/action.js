@@ -4,8 +4,8 @@ export const userLogin = ({ username, password }, cb) => {
     return (dispatch) => {
         dispatch({ type: LOGIN_USER_INIT })
 
-        const loginSuccess = (response) => {
-            dispatch({ type: LOGIN_USER_SUCCESS, payload: response })
+        const loginSuccess = (username) => {
+            dispatch({ type: LOGIN_USER_SUCCESS, payload: username })
         }
 
         const loginFail = (error) => {
@@ -22,7 +22,7 @@ export const userLogin = ({ username, password }, cb) => {
                 .then((data) => {
                     if (data.jwt) {
                         //console.log(data)
-                        localStorage.jwt=data.jwt
+                        localStorage.jwt = data.jwt
                         loginSuccess(username)
                         cb()
                     } else {
