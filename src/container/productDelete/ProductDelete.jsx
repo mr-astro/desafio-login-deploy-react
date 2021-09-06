@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import { useParams } from 'react-router'
+import { useParams } from 'react-router-dom'
 
 const ProductDelete = () => {
     const {id} = useParams()
@@ -9,7 +9,9 @@ const ProductDelete = () => {
 
 
     useEffect(()=>{
+        console.log(products)
         const name = products.filter(product=>product.id === id)
+        console.log(name)
         setName(name)
     },[id, products])
 

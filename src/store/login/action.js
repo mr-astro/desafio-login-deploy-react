@@ -24,7 +24,6 @@ export const userLogin = ({ username, password }, cb) => {
                         //console.log(data)
                         localStorage.jwt = data.jwt
                         loginSuccess(username)
-                        cb()
                     } else {
                         loginFail(data.error)
                     }
