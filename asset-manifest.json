@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/desafio-login-deploy-react/static/css/main.4262edb3.chunk.css",
-    "main.js": "/desafio-login-deploy-react/static/js/main.816a2d24.chunk.js",
-    "main.js.map": "/desafio-login-deploy-react/static/js/main.816a2d24.chunk.js.map",
-    "runtime-main.js": "/desafio-login-deploy-react/static/js/runtime-main.3ac9123b.js",
-    "runtime-main.js.map": "/desafio-login-deploy-react/static/js/runtime-main.3ac9123b.js.map",
+    "main.css": "/desafio-login-deploy-react/static/css/main.da0861e1.chunk.css",
+    "main.js": "/desafio-login-deploy-react/static/js/main.a60b8ce6.chunk.js",
+    "main.js.map": "/desafio-login-deploy-react/static/js/main.a60b8ce6.chunk.js.map",
+    "runtime-main.js": "/desafio-login-deploy-react/static/js/runtime-main.5514b23f.js",
+    "runtime-main.js.map": "/desafio-login-deploy-react/static/js/runtime-main.5514b23f.js.map",
     "static/css/2.983f79de.chunk.css": "/desafio-login-deploy-react/static/css/2.983f79de.chunk.css",
-    "static/js/2.81127879.chunk.js": "/desafio-login-deploy-react/static/js/2.81127879.chunk.js",
-    "static/js/2.81127879.chunk.js.map": "/desafio-login-deploy-react/static/js/2.81127879.chunk.js.map",
-    "static/js/3.968fe12a.chunk.js": "/desafio-login-deploy-react/static/js/3.968fe12a.chunk.js",
-    "static/js/3.968fe12a.chunk.js.map": "/desafio-login-deploy-react/static/js/3.968fe12a.chunk.js.map",
+    "static/js/2.d3d4672a.chunk.js": "/desafio-login-deploy-react/static/js/2.d3d4672a.chunk.js",
+    "static/js/2.d3d4672a.chunk.js.map": "/desafio-login-deploy-react/static/js/2.d3d4672a.chunk.js.map",
+    "static/js/3.47607632.chunk.js": "/desafio-login-deploy-react/static/js/3.47607632.chunk.js",
+    "static/js/3.47607632.chunk.js.map": "/desafio-login-deploy-react/static/js/3.47607632.chunk.js.map",
     "index.html": "/desafio-login-deploy-react/index.html",
     "static/css/2.983f79de.chunk.css.map": "/desafio-login-deploy-react/static/css/2.983f79de.chunk.css.map",
-    "static/css/main.4262edb3.chunk.css.map": "/desafio-login-deploy-react/static/css/main.4262edb3.chunk.css.map",
-    "static/js/2.81127879.chunk.js.LICENSE.txt": "/desafio-login-deploy-react/static/js/2.81127879.chunk.js.LICENSE.txt"
+    "static/css/main.da0861e1.chunk.css.map": "/desafio-login-deploy-react/static/css/main.da0861e1.chunk.css.map",
+    "static/js/2.d3d4672a.chunk.js.LICENSE.txt": "/desafio-login-deploy-react/static/js/2.d3d4672a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3ac9123b.js",
+    "static/js/runtime-main.5514b23f.js",
     "static/css/2.983f79de.chunk.css",
-    "static/js/2.81127879.chunk.js",
-    "static/css/main.4262edb3.chunk.css",
-    "static/js/main.816a2d24.chunk.js"
+    "static/js/2.d3d4672a.chunk.js",
+    "static/css/main.da0861e1.chunk.css",
+    "static/js/main.a60b8ce6.chunk.js"
   ]
 }
