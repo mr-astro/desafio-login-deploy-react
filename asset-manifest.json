@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/desafio-login-deploy-react/static/css/main.da0861e1.chunk.css",
-    "main.js": "/desafio-login-deploy-react/static/js/main.a60b8ce6.chunk.js",
-    "main.js.map": "/desafio-login-deploy-react/static/js/main.a60b8ce6.chunk.js.map",
+    "main.js": "/desafio-login-deploy-react/static/js/main.bae0eefe.chunk.js",
+    "main.js.map": "/desafio-login-deploy-react/static/js/main.bae0eefe.chunk.js.map",
     "runtime-main.js": "/desafio-login-deploy-react/static/js/runtime-main.5514b23f.js",
     "runtime-main.js.map": "/desafio-login-deploy-react/static/js/runtime-main.5514b23f.js.map",
     "static/css/2.983f79de.chunk.css": "/desafio-login-deploy-react/static/css/2.983f79de.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.983f79de.chunk.css",
     "static/js/2.d3d4672a.chunk.js",
     "static/css/main.da0861e1.chunk.css",
-    "static/js/main.a60b8ce6.chunk.js"
+    "static/js/main.bae0eefe.chunk.js"
   ]
 }
