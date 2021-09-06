@@ -6,7 +6,6 @@ import Products from '../../container/products/Products'
 import ProductDelete from '../../container/productDelete/ProductDelete'
 import PrivateRoute from '../privateRoute/PrivateRoute'
 
-
 const AppRouter = () => {
     const isLogin = useSelector(state => state.login.success)
     return (

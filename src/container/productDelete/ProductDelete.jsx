@@ -9,10 +9,10 @@ const ProductDelete = () => {
 
 
     useEffect(()=>{
-        console.log(products)
-        const name = products.filter(product=>product.id === id)
-        console.log(name)
-        setName(name)
+        //console.log(products)
+        const name = products.filter(product=>product.id === parseInt(id))[0]
+        //console.log(name, id)
+        setName(name.name)
     },[id, products])
 
     return (
